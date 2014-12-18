@@ -1,7 +1,7 @@
 # PostgreSQL
 #   Ensure the PostgreSQL gem is defined in your Gemfile
 #   gem 'pg'
-development: 
+production: 
   adapter: postgresql 
   encoding: utf8 
   database: d17a480rpgadeu 
@@ -10,3 +10,12 @@ development:
   pool: 5
   port: 5432
   password: _1dvhllbUKixPJ_0dUwWNWXRzK
+development: 
+  adapter: postgresql 
+  encoding: utf8 
+  database: life_evolution 
+  username: mika
+  host: localhost
+  pool: 5
+  port: 5432
+  password: mika
