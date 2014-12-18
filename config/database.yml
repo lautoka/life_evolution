@@ -1,0 +1,12 @@
+# PostgreSQL
+#   Ensure the PostgreSQL gem is defined in your Gemfile
+#   gem 'pg'
+development: 
+  adapter: postgresql 
+  encoding: utf8 
+  database: d17a480rpgadeu 
+  username: rijapdjpxwqjfn
+  host: ec2-54-247-64-118.eu-west-1.compute.amazonaws.com
+  pool: 5
+  port: 5432
+  password: _1dvhllbUKixPJ_0dUwWNWXRzK
