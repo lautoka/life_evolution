@@ -12,13 +12,17 @@ gem 'jbuilder', '2.2.5'
 gem 'bcrypt', '3.1.9'
 
 gem 'bower-rails'
+gem 'angular-rails-templates'
 gem 'sass', '3.2.19' 
 group :test, :development do
+  gem "rspec"
   gem "rspec-rails", "~> 2.0"
   gem "factory_girl_rails", "~> 4.0"
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver"
+  gem 'teaspoon'
+  gem 'phantomjs'
 end
 
 # Necessary for Windows OS (won't install on *nix systems)

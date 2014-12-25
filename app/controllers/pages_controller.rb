@@ -3,6 +3,9 @@ class PagesController < ApplicationController
     :inside
   ]
 
+  def index
+  end
+
   def home
   end
   
